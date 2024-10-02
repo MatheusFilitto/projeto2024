@@ -1,0 +1,159 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e79696;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    margin-left: 250px;
+    list-style: none;
+    flex-direction: row;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #7a7a7a;
+    font-size: 16px;
+    margin: 10px;
+    text-align: center;
+}
+
+header .logo {
+    margin-right: 200px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+header .logo img {
+    height: 70px;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 350px;
+    
+}
+
+
+.entrar {
+    background-color: #002058; /* Azul escuro */
+    color: white; /* Texto branco para contraste */
+    border: 1px solid #002058; /* Borda azul escuro */
+}
+
+.entrar:hover {
+    background-color: #001a40; /* Azul ainda mais escuro para hover */
+    color: #e0e0e0; /* Texto cinza claro para contraste no hover */
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #070707;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 24px;
+    color: #333333;
+    margin: 20px 0;
+}
+
+.wb-logo {
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.hero-image img {
+    width: 500px;
+    height: auto;
+    border-radius: 15%;
+    margin-left: 150px;
+}
+
+/* Estilo do footer para seguir o design do header */
+
+footer {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo no footer */
+    align-items: center; /* Alinha os itens verticalmente */
+    background-color: #ffffff;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para estilo consistente */
+    padding: 20px;
+    margin-top: auto; /* Garante que o footer vá para o final da página */
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo do footer */
+    max-width: 1200px;
+    width: 100%;
+}
+
+.social-media {
+    margin-bottom: 15px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #333333; /* Adiciona cor do texto do footer para ficar mais consistente */
+}
+
